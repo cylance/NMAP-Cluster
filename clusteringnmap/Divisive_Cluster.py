@@ -3,7 +3,7 @@ __author__ = "xzhao"
 import numpy as np
 from scipy.spatial.distance import cdist
 from sklearn.cluster import KMeans
-
+from clusteringnmap.display import display_vector_index_details, display_shared_vector_indeces_details
 
 
 class Cluster:
@@ -25,19 +25,24 @@ class Cluster:
     def cal_distance_matrix(self):
         self.distance_matrix = cdist(self.data, self.data,'euclidean')
 
-    def query_for_split_decision(self, inds1, inds2):
-        response = raw_input("should sample %d and sample %d be in one cluster? (Y/N)"%(inds1, inds2))
+    def query_for_split_decision(self, inds1, inds2, vectorizer, vectors, vector_names):
+        print display_vector_index_details(inds1, vectors, vector_names, vectorizer)
+        print display_vector_index_details(inds2, vectors, vector_names, vectorizer)
+
+        print "Overlap:"
+        print display_shared_vector_indeces_details([inds1, inds2], vectors, vector_names, vectorizer)
+        response = raw_input("Should {0} and {1} be in the same cluster? (Y/N)".format(vector_names[inds1], vector_names[inds2]))
         if response.upper() == "Y" or response.upper() == "YES":
             return False   # If users think the two should be in one cluster, we don't split, so return False
         if response.upper() == "N" or response.upper() == "NO":
             return True    # vice versa
 
-    def divide_decision(self, min_pts = 2):
+    def divide_decision(self, vectorizer, vectors, vector_names, min_pts=2):
         if len(self.data) <= min_pts:
             return False
         indx = np.argmax(sum(self.distance_matrix)) # find the sample i whose sum of the distance to the other samples is the largest
                                                     # i.e. i = max_i(sum_j(D_ij))
-        if self.query_for_split_decision( self.index[np.argmax(self.distance_matrix[indx])], self.index[indx] ):
+        if self.query_for_split_decision(self.index[np.argmax(self.distance_matrix[indx])], self.index[indx], vectorizer, vectors, vector_names):
             # decision is based on the point which is found in last step and the point which is furthest to that point
             return True
         self.fixed = True

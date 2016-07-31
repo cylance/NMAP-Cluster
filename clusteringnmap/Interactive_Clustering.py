@@ -9,7 +9,7 @@ class interactive_Clustering:
     def __init__(self):
         self.clusters = set()
 
-    def fit(self, vectors):
+    def fit(self, vectors, vectorizer, raw_vectors, vector_names):
         non_fixed_clusters = set()
         fixed_clusters = set()
         vectors = np.matrix(vectors)
@@ -17,7 +17,7 @@ class interactive_Clustering:
         while len(non_fixed_clusters) > 0:
             tmp_copy_non_fixed_clusters = non_fixed_clusters.copy()
             for cluster in tmp_copy_non_fixed_clusters:
-                if cluster.divide_decision():
+                if cluster.divide_decision(vectorizer, raw_vectors, vector_names):
                     [cluster1, cluster2] = cluster.divide()
                     non_fixed_clusters.remove(cluster)
                     non_fixed_clusters.update([cluster1, cluster2])
@@ -26,9 +26,9 @@ class interactive_Clustering:
                     fixed_clusters.add(cluster)
         self.clusters = fixed_clusters
 
-    def fit_predict(self, vectors):
+    def fit_predict(self, vectors, vectorizer, raw_vectors, vector_names):
         vectors = np.matrix(vectors)
-        self.fit(vectors)
+        self.fit(vectors, vectorizer, raw_vectors, vector_names)
         result = np.zeros(vectors.shape[0])
         clusterID = 0
         for cluster in self.clusters:

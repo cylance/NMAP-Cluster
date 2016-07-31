@@ -8,9 +8,9 @@ def precompute_distances(vectors, metric="euclidean"):
     return pairwise_distances(vectors, n_jobs=-1, metric=metric)
 
 
-def cluster_interactive(vectors):
+def cluster_interactive(vectors, vectorizer, raw_vectors, vector_names):
     Icluster = interactive_Clustering()
-    return Icluster.fit_predict(vectors);
+    return Icluster.fit_predict(vectors, vectorizer, raw_vectors, vector_names)
 
 
 def cluster_with_kmeans(vectors, n_clusters=0):
@@ -18,7 +18,7 @@ def cluster_with_kmeans(vectors, n_clusters=0):
         # Meaning that user didn't set the cluster number, thus we have to find the optimal number of clusters
         # We can choose any of the following method:
         # n_clusters = elbow_method(vectors, 20);
-        n_clusters = gap_statistic(vectors, 20);  # 20 is the
+        n_clusters = gap_statistic(vectors, 20)  # 20 is the
 
     kmeans = KMeans(n_clusters=n_clusters, n_jobs=-1)
     return kmeans.fit_predict(vectors)

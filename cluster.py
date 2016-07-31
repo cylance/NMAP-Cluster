@@ -99,7 +99,7 @@ def cluster(
         display_vector_index_details(vector_index, vectors, vector_names, vectorizer)
         """
         # todo Try with normalized vectors
-        return cluster_interactive(reduced_vectors)
+        return cluster_interactive(reduced_vectors, vectorizer, vectors, vector_names)
     elif strategy == "viz":
         clusteringnmap.interactive_state._vector_names = vector_names
         clusteringnmap.interactive_state._vectors = vectors
