@@ -30,9 +30,16 @@ from bokeh.models import HoverTool
 import clusteringnmap.interactive_state
 from clusteringnmap.display import display_vector_index_details, display_shared_vector_indeces_details
 from scipy.spatial.distance import pdist
+from bokeh_util_distinct_color import *
 
-colors = Spectral11 + RdBu11 + RdYlGn11
-random.shuffle(colors)
+
+def generate_color():
+    import random
+    colors = distinctColors(20)
+    #print(colors)
+    #colors = RdPu4 + Spectral5 + RdBu5 + RdYlGn5
+    random.shuffle(colors)
+    return colors
 
 # todo Make the console have decision output
 
@@ -146,7 +153,7 @@ def _fit_util(active):
 
         select_next_cluster()
 
-
+colors = generate_color()
 min_pts = 1
 _non_fixed_clusters = []
 vectors = clusteringnmap.interactive_state._reduced_vectors
