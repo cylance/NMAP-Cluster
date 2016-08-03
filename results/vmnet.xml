@@ -1,0 +1,1381 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.40 scan initiated Tue Mar 29 19:37:45 2016 as: nmap -A -p1-10000,48000-50000 -oA book_demo -vvv -T4 172.16.118.2-250 -->
+<nmaprun scanner="nmap" args="nmap -A -p1-10000,48000-50000 -oA book_demo -vvv -T4 172.16.118.2-250" start="1459305465" startstr="Tue Mar 29 19:37:45 2016" version="6.40" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="12001" services="1-10000,48000-50000"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="ARP Ping Scan" time="1459305465"/>
+<taskend task="ARP Ping Scan" time="1459305470" extrainfo="249 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 249 hosts." time="1459305470"/>
+<taskend task="Parallel DNS resolution of 249 hosts." time="1459305470"/>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.2" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.3" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.4" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.5" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.6" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.7" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.8" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.9" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.10" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.11" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.12" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.13" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.14" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.15" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.16" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.17" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.18" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.19" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.20" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.21" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.22" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.23" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.24" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.25" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.26" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.27" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.28" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.29" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.30" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.31" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.32" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.33" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.34" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.35" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.36" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.37" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.38" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.39" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.40" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.41" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.42" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.43" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.44" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.45" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.46" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.47" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.48" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.49" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.50" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.51" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.52" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.53" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.54" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.55" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.56" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.57" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.58" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.59" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.60" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.61" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.62" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.63" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.64" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.65" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.66" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.67" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.68" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.69" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.70" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.71" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.72" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.73" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.74" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.75" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.76" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.77" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.78" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.79" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.80" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.81" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.82" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.83" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.84" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.85" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.86" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.87" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.88" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.89" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.90" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.91" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.92" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.93" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.94" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.95" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.96" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.97" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.98" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.99" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.100" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.101" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.102" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.103" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.104" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.105" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.106" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.107" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.108" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.109" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.110" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.111" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.112" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.113" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.114" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.115" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.116" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.117" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.118" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.119" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.120" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.121" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.122" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.123" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.124" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.125" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.126" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.127" addrtype="ipv4"/>
+</host>
+<taskbegin task="SYN Stealth Scan" time="1459305470"/>
+<taskprogress task="SYN Stealth Scan" time="1459305501" percent="2.75" remaining="1098" etc="1459306599"/>
+<taskprogress task="SYN Stealth Scan" time="1459305732" percent="20.12" remaining="1041" etc="1459306772"/>
+<taskprogress task="SYN Stealth Scan" time="1459305819" percent="26.38" remaining="974" etc="1459306793"/>
+<taskprogress task="SYN Stealth Scan" time="1459305897" percent="32.01" remaining="908" etc="1459306804"/>
+<taskprogress task="SYN Stealth Scan" time="1459305975" percent="37.61" remaining="838" etc="1459306813"/>
+<taskprogress task="SYN Stealth Scan" time="1459306047" percent="42.81" remaining="771" etc="1459306818"/>
+<taskprogress task="SYN Stealth Scan" time="1459306125" percent="48.21" remaining="704" etc="1459306829"/>
+<taskprogress task="SYN Stealth Scan" time="1459306197" percent="53.36" remaining="636" etc="1459306832"/>
+<taskprogress task="SYN Stealth Scan" time="1459306272" percent="58.70" remaining="565" etc="1459306836"/>
+<taskprogress task="SYN Stealth Scan" time="1459306353" percent="64.05" remaining="496" etc="1459306849"/>
+<taskprogress task="SYN Stealth Scan" time="1459306425" percent="69.20" remaining="426" etc="1459306850"/>
+<taskprogress task="SYN Stealth Scan" time="1459306497" percent="74.34" remaining="355" etc="1459306852"/>
+<taskprogress task="SYN Stealth Scan" time="1459306569" percent="79.46" remaining="285" etc="1459306853"/>
+<taskprogress task="SYN Stealth Scan" time="1459306641" percent="84.58" remaining="214" etc="1459306854"/>
+<taskprogress task="SYN Stealth Scan" time="1459306716" percent="89.75" remaining="143" etc="1459306858"/>
+<taskprogress task="SYN Stealth Scan" time="1459306812" percent="94.95" remaining="72" etc="1459306883"/>
+<taskend task="SYN Stealth Scan" time="1459307218" extrainfo="96008 total ports"/>
+<taskbegin task="Service scan" time="1459307218"/>
+<taskprogress task="Service scan" time="1459307256" percent="55.56" remaining="31" etc="1459307286"/>
+<taskend task="Service scan" time="1459307325" extrainfo="63 services on 8 hosts"/>
+<taskbegin task="NSE" time="1459307343"/>
+<taskprogress task="NSE" time="1459307374" percent="94.20" remaining="2" etc="1459307376"/>
+<taskprogress task="NSE" time="1459307404" percent="97.77" remaining="2" etc="1459307405"/>
+<taskend task="NSE" time="1459307429"/>
+<host starttime="1459305465" endtime="1459307356"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.118.128" addrtype="ipv4"/>
+<address addr="00:0C:29:42:D9:AA" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="11998">
+<extrareasons reason="resets" count="11998"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" extrainfo="protocol 2.0" servicefp="SF-Port22-TCP:V=6.40%I=7%D=3/29%Time=56FB42D8%P=x86_64-pc-linux-gnu%r(NULL,2B,&quot;SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.6\r\n&quot;);" method="probed" conf="10"/><script id="ssh-hostkey" output="1024 71:9a:86:39:0b:dd:22:68:8e:51:ec:82:b0:5a:24:36 (DSA)&#xa;ssh-dss AAAAB3NzaC1kc3MAAACBAO8EBRjuzEGvFdZp9acQNXyPztyVmSVgyT1ksEj/puidqF4AL/ioLK0pYjCSAZlG/WHeTJVLHRZx+oIMbLGD1Cv6cI5DXaytCL4ZQ1zhqKI0y7pLkELILT5WC54GljG2ZpqOFQVcfCGyoifW4g+d2iQrPxG10SBHtUZktIMvov/DAAAAFQD3sqrcJlgEFqhqGPd8PCV8pt9TGQAAAIA8q2KjBOoQt7DKkEP8p2uNAGnyu0fS6C3+eE3mECfHX95vdqXfxczUhS3s1PBdw5w/o3juqaiKfXwAAcli23Oif9XakJGSvkko2nydJmIR7GbnvF04NqzQMxxU0k9QepgzHrns68k/p2v7UsEWPUqls/t4xm0Tuyu0sA9k0rmprAAAAIEA31j3H7vFokJhy6Y9v1lPJEBPkwagCojSqJV5B/asihqY/uHa3Nfye1UB8zq7XE3rCWr6lQVGsIV5IWoExNn4i139jKP98iGPxW5lsHkysMo8OhVTVtP75g5jbYeTV9n8ZxiQEAdEQ4E2EW/xNj/OTonBO80Pn4Ajt9ODchnMaHs=&#xa;2048 fa:66:2c:de:9f:a0:0c:fd:00:aa:2a:52:00:84:2f:3a (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCoJojH4FTEcHSvJfwY9tbLXDUxtJXs9ZbEHkYkKl4D6HEipv2Jg3eu5ue8FqBbRmsW9YUPQSUsudxQSjctcccvdZN4tdQ+y+dTHooJaub3hI9pyBmPuKH5KnwF5c4G+169lFJx7AMqejLSX8fdNJIeKZXjHgDaNuWSQEHZEFCacdXPbdCMF2jtlc7O4Sqxj2MUWBaF0UyXy4DagMKoeRr6Yp1v2dx3o3MSxvEek1VtzVtKM1JoOp1QspPwv857+GgSr4OvU5PWHKANw3M0OlUrPqZuz+QK1E5K/xgDkTwzek2+P5Gj5bATdIavkk09hFCJ/aINd2FkxcVI36K2oGE7&#xa;256 26:7b:4d:27:8d:ea:bf:55:bd:ad:9e:25:d3:c8:c0:80 (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLstFJewdV6ab779LyFYBD518ufwg8oISYrdSbQXIIxSvExD5vsWEdrRNLID7Bs9/cyjufFdewuEWk7fCJMOpoM="><table>
+<elem key="fingerprint">719a86390bdd22688e51ec82b05a2436</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAO8EBRjuzEGvFdZp9acQNXyPztyVmSVgyT1ksEj/puidqF4AL/ioLK0pYjCSAZlG/WHeTJVLHRZx+oIMbLGD1Cv6cI5DXaytCL4ZQ1zhqKI0y7pLkELILT5WC54GljG2ZpqOFQVcfCGyoifW4g+d2iQrPxG10SBHtUZktIMvov/DAAAAFQD3sqrcJlgEFqhqGPd8PCV8pt9TGQAAAIA8q2KjBOoQt7DKkEP8p2uNAGnyu0fS6C3+eE3mECfHX95vdqXfxczUhS3s1PBdw5w/o3juqaiKfXwAAcli23Oif9XakJGSvkko2nydJmIR7GbnvF04NqzQMxxU0k9QepgzHrns68k/p2v7UsEWPUqls/t4xm0Tuyu0sA9k0rmprAAAAIEA31j3H7vFokJhy6Y9v1lPJEBPkwagCojSqJV5B/asihqY/uHa3Nfye1UB8zq7XE3rCWr6lQVGsIV5IWoExNn4i139jKP98iGPxW5lsHkysMo8OhVTVtP75g5jbYeTV9n8ZxiQEAdEQ4E2EW/xNj/OTonBO80Pn4Ajt9ODchnMaHs=</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="bits">1024</elem>
+</table>
+<table>
+<elem key="fingerprint">fa662cde9fa00cfd00aa2a5200842f3a</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQCoJojH4FTEcHSvJfwY9tbLXDUxtJXs9ZbEHkYkKl4D6HEipv2Jg3eu5ue8FqBbRmsW9YUPQSUsudxQSjctcccvdZN4tdQ+y+dTHooJaub3hI9pyBmPuKH5KnwF5c4G+169lFJx7AMqejLSX8fdNJIeKZXjHgDaNuWSQEHZEFCacdXPbdCMF2jtlc7O4Sqxj2MUWBaF0UyXy4DagMKoeRr6Yp1v2dx3o3MSxvEek1VtzVtKM1JoOp1QspPwv857+GgSr4OvU5PWHKANw3M0OlUrPqZuz+QK1E5K/xgDkTwzek2+P5Gj5bATdIavkk09hFCJ/aINd2FkxcVI36K2oGE7</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048</elem>
+</table>
+<table>
+<elem key="fingerprint">267b4d278deabf55bdad9e25d3c8c080</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLstFJewdV6ab779LyFYBD518ufwg8oISYrdSbQXIIxSvExD5vsWEdrRNLID7Bs9/cyjufFdewuEWk7fCJMOpoM=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.4.7" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.7</cpe></service><script id="http-methods" output="GET HEAD POST OPTIONS"/><script id="http-title" output="Apache2 Ubuntu Default Page: It works"><elem key="title">Apache2 Ubuntu Default Page: It works</elem>
+</script></port>
+<port protocol="tcp" portid="6379"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="redis" product="Redis key-value store" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="33328"/>
+<osmatch name="Netgear DG834G WAP or Western Digital WD TV media player" accuracy="95" line="61906">
+<osclass type="WAP" vendor="Netgear" osfamily="embedded" accuracy="95"><cpe>cpe:/h:netgear:dg834g</cpe></osclass>
+<osclass type="media device" vendor="Western Digital" osfamily="embedded" accuracy="95"><cpe>cpe:/o:westerndigital:wd_tv</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="95" line="76836">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.9" accuracy="95" line="43425">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.8" accuracy="93" line="78163">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.1" accuracy="93" line="76656">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="93" line="77811">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 210A or 211 Network Camera (Linux 2.6)" accuracy="92" line="7328">
+<osclass type="webcam" vendor="AXIS" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/h:axis:210a_network_camera</cpe><cpe>cpe:/h:axis:211_network_camera</cpe><cpe>cpe:/o:axis:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.26 - 2.6.35" accuracy="92" line="43092">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.35" accuracy="92" line="43072">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.2" accuracy="92" line="43301">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=6.40%E=4%D=3/29%OT=22%CT=1%CU=33328%PV=Y%DS=1%DC=D%G=Y%M=000C29%T&#xa;OS:M=56FB43A5%P=x86_64-pc-linux-gnu)SEQ(SP=FD%GCD=1%ISR=10B%TI=Z%CI=I%TS=8)&#xa;OS:OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5=M5B4&#xa;OS:ST11NW7%O6=M5B4ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)&#xa;OS:ECN(R=Y%DF=Y%T=40%W=7210%O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%&#xa;OS:F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T&#xa;OS:5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=&#xa;OS:Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF&#xa;OS:=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40&#xa;OS:%CD=S)&#xa;"/>
+</os>
+<uptime seconds="22586" lastboot="Tue Mar 29 13:54:03 2016"/>
+<distance value="1"/>
+<tcpsequence index="253" difficulty="Good luck!" values="653E520A,96C44B19,5DFA0E54,F9B9799E,3077C384,734346E3"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="other" values="568325,56833E,568357,568370,568389,5683A3"/>
+<trace>
+<hop ttl="1" ipaddr="172.16.118.128" rtt="0.32"/>
+</trace>
+<times srtt="317" rttvar="72" to="100000"/>
+</host>
+<host starttime="1459305465" endtime="1459307420"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.118.129" addrtype="ipv4"/>
+<address addr="00:0C:29:FF:7F:AC" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="11988">
+<extrareasons reason="resets" count="11988"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft IIS httpd" version="7.5" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:7.5</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="OPTIONS TRACE GET HEAD POST&#xa;Potentially risky methods: TRACE&#xa;See http://nmap.org/nsedoc/scripts/http-methods.html"/><script id="http-title" output="IIS7"><elem key="title">IIS7</elem>
+</script></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="554"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="rtsp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="2869"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="5357"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="No Allow or Public header in OPTIONS response (status code 503)"/><script id="http-title" output="Service Unavailable"><elem key="title">Service Unavailable</elem>
+</script></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49154"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49155"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49158"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49166"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="40876"/>
+<osmatch name="Microsoft Windows Server 2008 SP2" accuracy="100" line="52404">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2008::sp2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, or Windows 8" accuracy="100" line="53077">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="100"><cpe>cpe:/o:microsoft:windows_7::-</cpe><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2008::sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8" accuracy="100"><cpe>cpe:/o:microsoft:windows_8</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=6.40%E=4%D=3/29%OT=80%CT=1%CU=40876%PV=Y%DS=1%DC=D%G=Y%M=000C29%T&#xa;OS:M=56FB43A5%P=x86_64-pc-linux-gnu)SEQ(SP=FB%GCD=1%ISR=10A%TI=I%CI=I%TS=7)&#xa;OS:OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8ST11%O5=M5B4&#xa;OS:NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)&#xa;OS:ECN(R=Y%DF=Y%T=80%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%&#xa;OS:F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=&#xa;OS:80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%&#xa;OS:Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=&#xa;OS:A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=&#xa;OS:Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%&#xa;OS:T=80%CD=Z)&#xa;"/>
+</os>
+<uptime seconds="13474" lastboot="Tue Mar 29 16:25:55 2016"/>
+<distance value="1"/>
+<tcpsequence index="251" difficulty="Good luck!" values="312956EA,F2BD6DE3,AAA315F2,EA65C278,312D8614,1096487D"/>
+<ipidsequence class="Incremental" values="225F,2260,2261,2262,2263,2264"/>
+<tcptssequence class="100HZ" values="1466EA,1466F4,1466FE,146708,146712,14671C"/>
+<hostscript><script id="p2p-conficker" output="&#xa;  Checking for Conficker.C or higher...&#xa;  Check 1 (port 48329/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 2 (port 62923/tcp): CLEAN (Couldn&apos;t connect)&#xa;  | Check 3 (port 37378/udp): CLEAN (Failed to receive data)&#xa;  | Check 4 (port 64862/udp): CLEAN (Timeout)&#xa;  0/4 checks are positive: Host is CLEAN or ports are blocked&#xa;"/><script id="smb-os-discovery" output="&#xa;  OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)&#xa;  OS CPE: cpe:/o:microsoft:windows_7::sp1&#xa;  Computer name: ignored&#xa;  NetBIOS computer name: IGNORED&#xa;  Workgroup: WORKGROUP&#xa;  System time: 2016-03-29T20:09:04-07:00&#xa;"><elem key="os">Windows 7 Ultimate 7601 Service Pack 1</elem>
+<elem key="lanmanager">Windows 7 Ultimate 6.1</elem>
+<elem key="server">IGNORED</elem>
+<elem key="date">2016-03-29T20:09:04-07:00</elem>
+<elem key="fqdn">ignored</elem>
+<elem key="domain_dns">ignored</elem>
+<elem key="workgroup">WORKGROUP</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_7::sp1</elem>
+</script><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/><script id="smbv2-enabled" output="Server supports SMBv2 protocol"/></hostscript><trace>
+<hop ttl="1" ipaddr="172.16.118.129" rtt="0.20"/>
+</trace>
+<times srtt="205" rttvar="84" to="100000"/>
+</host>
+<host starttime="1459305465" endtime="1459307416"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.118.130" addrtype="ipv4"/>
+<address addr="00:0C:29:A9:95:61" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="11998">
+<extrareasons reason="resets" count="11998"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="Dropbear sshd" version="2013.60" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="telnet" product="Linux telnetd" ostype="Linux" method="probed" conf="10"><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="nginx" version="1.4.6" extrainfo="Ubuntu" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.4.6</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="http-methods" output="No Allow or Public header in OPTIONS response (status code 405)"/><script id="http-title" output="Welcome to nginx!"><elem key="title">Welcome to nginx!</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="30980"/>
+<osmatch name="Netgear DG834G WAP or Western Digital WD TV media player" accuracy="95" line="61906">
+<osclass type="WAP" vendor="Netgear" osfamily="embedded" accuracy="95"><cpe>cpe:/h:netgear:dg834g</cpe></osclass>
+<osclass type="media device" vendor="Western Digital" osfamily="embedded" accuracy="95"><cpe>cpe:/o:westerndigital:wd_tv</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="95" line="76836">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.9" accuracy="95" line="43425">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.8" accuracy="93" line="78163">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.1" accuracy="93" line="76656">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="93" line="77811">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 210A or 211 Network Camera (Linux 2.6)" accuracy="92" line="7328">
+<osclass type="webcam" vendor="AXIS" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/h:axis:210a_network_camera</cpe><cpe>cpe:/h:axis:211_network_camera</cpe><cpe>cpe:/o:axis:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.26 - 2.6.35" accuracy="92" line="43092">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.35" accuracy="92" line="43072">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.2" accuracy="92" line="43301">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=6.40%E=4%D=3/29%OT=22%CT=1%CU=30980%PV=Y%DS=1%DC=D%G=Y%M=000C29%T&#xa;OS:M=56FB43A5%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10B%TI=Z%CI=I%TS=8&#xa;OS:)OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5=M5B&#xa;OS:4ST11NW7%O6=M5B4ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120&#xa;OS:)ECN(R=Y%DF=Y%T=40%W=7210%O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+&#xa;OS:%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)&#xa;OS:T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A&#xa;OS:=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%D&#xa;OS:F=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=4&#xa;OS:0%CD=S)&#xa;"/>
+</os>
+<uptime seconds="23082" lastboot="Tue Mar 29 13:45:47 2016"/>
+<distance value="1"/>
+<tcpsequence index="257" difficulty="Good luck!" values="20209F05,34174EE1,E21DD5DF,885CD4E7,C5E0550B,7209E410"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="other" values="57B733,57B74C,57B765,57B77E,57B797,57B7B0"/>
+<trace>
+<hop ttl="1" ipaddr="172.16.118.130" rtt="0.17"/>
+</trace>
+<times srtt="166" rttvar="57" to="100000"/>
+</host>
+<host starttime="1459305465" endtime="1459307353"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.118.131" addrtype="ipv4"/>
+<address addr="00:0C:29:57:04:E4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="11998">
+<extrareasons reason="resets" count="11998"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" extrainfo="protocol 2.0" servicefp="SF-Port22-TCP:V=6.40%I=7%D=3/29%Time=56FB42D8%P=x86_64-pc-linux-gnu%r(NULL,2B,&quot;SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.6\r\n&quot;);" method="probed" conf="10"/><script id="ssh-hostkey" output="1024 71:9a:86:39:0b:dd:22:68:8e:51:ec:82:b0:5a:24:36 (DSA)&#xa;ssh-dss AAAAB3NzaC1kc3MAAACBAO8EBRjuzEGvFdZp9acQNXyPztyVmSVgyT1ksEj/puidqF4AL/ioLK0pYjCSAZlG/WHeTJVLHRZx+oIMbLGD1Cv6cI5DXaytCL4ZQ1zhqKI0y7pLkELILT5WC54GljG2ZpqOFQVcfCGyoifW4g+d2iQrPxG10SBHtUZktIMvov/DAAAAFQD3sqrcJlgEFqhqGPd8PCV8pt9TGQAAAIA8q2KjBOoQt7DKkEP8p2uNAGnyu0fS6C3+eE3mECfHX95vdqXfxczUhS3s1PBdw5w/o3juqaiKfXwAAcli23Oif9XakJGSvkko2nydJmIR7GbnvF04NqzQMxxU0k9QepgzHrns68k/p2v7UsEWPUqls/t4xm0Tuyu0sA9k0rmprAAAAIEA31j3H7vFokJhy6Y9v1lPJEBPkwagCojSqJV5B/asihqY/uHa3Nfye1UB8zq7XE3rCWr6lQVGsIV5IWoExNn4i139jKP98iGPxW5lsHkysMo8OhVTVtP75g5jbYeTV9n8ZxiQEAdEQ4E2EW/xNj/OTonBO80Pn4Ajt9ODchnMaHs=&#xa;2048 fa:66:2c:de:9f:a0:0c:fd:00:aa:2a:52:00:84:2f:3a (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCoJojH4FTEcHSvJfwY9tbLXDUxtJXs9ZbEHkYkKl4D6HEipv2Jg3eu5ue8FqBbRmsW9YUPQSUsudxQSjctcccvdZN4tdQ+y+dTHooJaub3hI9pyBmPuKH5KnwF5c4G+169lFJx7AMqejLSX8fdNJIeKZXjHgDaNuWSQEHZEFCacdXPbdCMF2jtlc7O4Sqxj2MUWBaF0UyXy4DagMKoeRr6Yp1v2dx3o3MSxvEek1VtzVtKM1JoOp1QspPwv857+GgSr4OvU5PWHKANw3M0OlUrPqZuz+QK1E5K/xgDkTwzek2+P5Gj5bATdIavkk09hFCJ/aINd2FkxcVI36K2oGE7&#xa;256 26:7b:4d:27:8d:ea:bf:55:bd:ad:9e:25:d3:c8:c0:80 (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLstFJewdV6ab779LyFYBD518ufwg8oISYrdSbQXIIxSvExD5vsWEdrRNLID7Bs9/cyjufFdewuEWk7fCJMOpoM="><table>
+<elem key="fingerprint">719a86390bdd22688e51ec82b05a2436</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAO8EBRjuzEGvFdZp9acQNXyPztyVmSVgyT1ksEj/puidqF4AL/ioLK0pYjCSAZlG/WHeTJVLHRZx+oIMbLGD1Cv6cI5DXaytCL4ZQ1zhqKI0y7pLkELILT5WC54GljG2ZpqOFQVcfCGyoifW4g+d2iQrPxG10SBHtUZktIMvov/DAAAAFQD3sqrcJlgEFqhqGPd8PCV8pt9TGQAAAIA8q2KjBOoQt7DKkEP8p2uNAGnyu0fS6C3+eE3mECfHX95vdqXfxczUhS3s1PBdw5w/o3juqaiKfXwAAcli23Oif9XakJGSvkko2nydJmIR7GbnvF04NqzQMxxU0k9QepgzHrns68k/p2v7UsEWPUqls/t4xm0Tuyu0sA9k0rmprAAAAIEA31j3H7vFokJhy6Y9v1lPJEBPkwagCojSqJV5B/asihqY/uHa3Nfye1UB8zq7XE3rCWr6lQVGsIV5IWoExNn4i139jKP98iGPxW5lsHkysMo8OhVTVtP75g5jbYeTV9n8ZxiQEAdEQ4E2EW/xNj/OTonBO80Pn4Ajt9ODchnMaHs=</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="bits">1024</elem>
+</table>
+<table>
+<elem key="fingerprint">fa662cde9fa00cfd00aa2a5200842f3a</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQCoJojH4FTEcHSvJfwY9tbLXDUxtJXs9ZbEHkYkKl4D6HEipv2Jg3eu5ue8FqBbRmsW9YUPQSUsudxQSjctcccvdZN4tdQ+y+dTHooJaub3hI9pyBmPuKH5KnwF5c4G+169lFJx7AMqejLSX8fdNJIeKZXjHgDaNuWSQEHZEFCacdXPbdCMF2jtlc7O4Sqxj2MUWBaF0UyXy4DagMKoeRr6Yp1v2dx3o3MSxvEek1VtzVtKM1JoOp1QspPwv857+GgSr4OvU5PWHKANw3M0OlUrPqZuz+QK1E5K/xgDkTwzek2+P5Gj5bATdIavkk09hFCJ/aINd2FkxcVI36K2oGE7</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048</elem>
+</table>
+<table>
+<elem key="fingerprint">267b4d278deabf55bdad9e25d3c8c080</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLstFJewdV6ab779LyFYBD518ufwg8oISYrdSbQXIIxSvExD5vsWEdrRNLID7Bs9/cyjufFdewuEWk7fCJMOpoM=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="telnet" product="Linux telnetd" ostype="Linux" method="probed" conf="10"><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.4.7" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.7</cpe></service><script id="http-methods" output="GET HEAD POST OPTIONS"/><script id="http-title" output="Apache2 Ubuntu Default Page: It works"><elem key="title">Apache2 Ubuntu Default Page: It works</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="37238"/>
+<osmatch name="Linux 2.6.32" accuracy="96" line="76836">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.9" accuracy="96" line="43425">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Netgear DG834G WAP or Western Digital WD TV media player" accuracy="95" line="61906">
+<osclass type="WAP" vendor="Netgear" osfamily="embedded" accuracy="95"><cpe>cpe:/h:netgear:dg834g</cpe></osclass>
+<osclass type="media device" vendor="Western Digital" osfamily="embedded" accuracy="95"><cpe>cpe:/o:westerndigital:wd_tv</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.8" accuracy="95" line="78163">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.1" accuracy="94" line="76656">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="94" line="77811">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 210A or 211 Network Camera (Linux 2.6)" accuracy="94" line="7328">
+<osclass type="webcam" vendor="AXIS" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/h:axis:210a_network_camera</cpe><cpe>cpe:/h:axis:211_network_camera</cpe><cpe>cpe:/o:axis:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.26 - 2.6.35" accuracy="94" line="43092">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.35" accuracy="93" line="43072">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.2" accuracy="93" line="43301">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=6.40%E=4%D=3/29%OT=22%CT=1%CU=37238%PV=Y%DS=1%DC=D%G=Y%M=000C29%T&#xa;OS:M=56FB43A5%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10C%TI=Z%TS=8)SEQ(&#xa;OS:SP=105%GCD=1%ISR=10C%TI=Z%CI=RD%TS=8)OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O&#xa;OS:3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5=M5B4ST11NW7%O6=M5B4ST11)WIN(W1=7120%W2=&#xa;OS:7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M5B4NNSN&#xa;OS:W7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%D&#xa;OS:F=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O&#xa;OS:=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W&#xa;OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%R&#xa;OS:IPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="22903" lastboot="Tue Mar 29 13:48:46 2016"/>
+<distance value="1"/>
+<tcpsequence index="261" difficulty="Good luck!" values="91617C9E,814F29A9,DD55548B,6A7B39D6,BF708784,8BF7BA46"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="other" values="57BB2F,57BB49,57BB62,57BB7B,57BB94,57BBAD"/>
+<trace>
+<hop ttl="1" ipaddr="172.16.118.131" rtt="0.33"/>
+</trace>
+<times srtt="334" rttvar="67" to="100000"/>
+</host>
+<host starttime="1459305465" endtime="1459307355"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.118.132" addrtype="ipv4"/>
+<address addr="00:0C:29:C6:56:63" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="11999">
+<extrareasons reason="resets" count="11999"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" extrainfo="protocol 2.0" servicefp="SF-Port22-TCP:V=6.40%I=7%D=3/29%Time=56FB42D8%P=x86_64-pc-linux-gnu%r(NULL,2B,&quot;SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.6\r\n&quot;);" method="probed" conf="10"/><script id="ssh-hostkey" output="1024 71:9a:86:39:0b:dd:22:68:8e:51:ec:82:b0:5a:24:36 (DSA)&#xa;ssh-dss AAAAB3NzaC1kc3MAAACBAO8EBRjuzEGvFdZp9acQNXyPztyVmSVgyT1ksEj/puidqF4AL/ioLK0pYjCSAZlG/WHeTJVLHRZx+oIMbLGD1Cv6cI5DXaytCL4ZQ1zhqKI0y7pLkELILT5WC54GljG2ZpqOFQVcfCGyoifW4g+d2iQrPxG10SBHtUZktIMvov/DAAAAFQD3sqrcJlgEFqhqGPd8PCV8pt9TGQAAAIA8q2KjBOoQt7DKkEP8p2uNAGnyu0fS6C3+eE3mECfHX95vdqXfxczUhS3s1PBdw5w/o3juqaiKfXwAAcli23Oif9XakJGSvkko2nydJmIR7GbnvF04NqzQMxxU0k9QepgzHrns68k/p2v7UsEWPUqls/t4xm0Tuyu0sA9k0rmprAAAAIEA31j3H7vFokJhy6Y9v1lPJEBPkwagCojSqJV5B/asihqY/uHa3Nfye1UB8zq7XE3rCWr6lQVGsIV5IWoExNn4i139jKP98iGPxW5lsHkysMo8OhVTVtP75g5jbYeTV9n8ZxiQEAdEQ4E2EW/xNj/OTonBO80Pn4Ajt9ODchnMaHs=&#xa;2048 fa:66:2c:de:9f:a0:0c:fd:00:aa:2a:52:00:84:2f:3a (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCoJojH4FTEcHSvJfwY9tbLXDUxtJXs9ZbEHkYkKl4D6HEipv2Jg3eu5ue8FqBbRmsW9YUPQSUsudxQSjctcccvdZN4tdQ+y+dTHooJaub3hI9pyBmPuKH5KnwF5c4G+169lFJx7AMqejLSX8fdNJIeKZXjHgDaNuWSQEHZEFCacdXPbdCMF2jtlc7O4Sqxj2MUWBaF0UyXy4DagMKoeRr6Yp1v2dx3o3MSxvEek1VtzVtKM1JoOp1QspPwv857+GgSr4OvU5PWHKANw3M0OlUrPqZuz+QK1E5K/xgDkTwzek2+P5Gj5bATdIavkk09hFCJ/aINd2FkxcVI36K2oGE7&#xa;256 26:7b:4d:27:8d:ea:bf:55:bd:ad:9e:25:d3:c8:c0:80 (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLstFJewdV6ab779LyFYBD518ufwg8oISYrdSbQXIIxSvExD5vsWEdrRNLID7Bs9/cyjufFdewuEWk7fCJMOpoM="><table>
+<elem key="fingerprint">719a86390bdd22688e51ec82b05a2436</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAO8EBRjuzEGvFdZp9acQNXyPztyVmSVgyT1ksEj/puidqF4AL/ioLK0pYjCSAZlG/WHeTJVLHRZx+oIMbLGD1Cv6cI5DXaytCL4ZQ1zhqKI0y7pLkELILT5WC54GljG2ZpqOFQVcfCGyoifW4g+d2iQrPxG10SBHtUZktIMvov/DAAAAFQD3sqrcJlgEFqhqGPd8PCV8pt9TGQAAAIA8q2KjBOoQt7DKkEP8p2uNAGnyu0fS6C3+eE3mECfHX95vdqXfxczUhS3s1PBdw5w/o3juqaiKfXwAAcli23Oif9XakJGSvkko2nydJmIR7GbnvF04NqzQMxxU0k9QepgzHrns68k/p2v7UsEWPUqls/t4xm0Tuyu0sA9k0rmprAAAAIEA31j3H7vFokJhy6Y9v1lPJEBPkwagCojSqJV5B/asihqY/uHa3Nfye1UB8zq7XE3rCWr6lQVGsIV5IWoExNn4i139jKP98iGPxW5lsHkysMo8OhVTVtP75g5jbYeTV9n8ZxiQEAdEQ4E2EW/xNj/OTonBO80Pn4Ajt9ODchnMaHs=</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="bits">1024</elem>
+</table>
+<table>
+<elem key="fingerprint">fa662cde9fa00cfd00aa2a5200842f3a</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQCoJojH4FTEcHSvJfwY9tbLXDUxtJXs9ZbEHkYkKl4D6HEipv2Jg3eu5ue8FqBbRmsW9YUPQSUsudxQSjctcccvdZN4tdQ+y+dTHooJaub3hI9pyBmPuKH5KnwF5c4G+169lFJx7AMqejLSX8fdNJIeKZXjHgDaNuWSQEHZEFCacdXPbdCMF2jtlc7O4Sqxj2MUWBaF0UyXy4DagMKoeRr6Yp1v2dx3o3MSxvEek1VtzVtKM1JoOp1QspPwv857+GgSr4OvU5PWHKANw3M0OlUrPqZuz+QK1E5K/xgDkTwzek2+P5Gj5bATdIavkk09hFCJ/aINd2FkxcVI36K2oGE7</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048</elem>
+</table>
+<table>
+<elem key="fingerprint">267b4d278deabf55bdad9e25d3c8c080</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLstFJewdV6ab779LyFYBD518ufwg8oISYrdSbQXIIxSvExD5vsWEdrRNLID7Bs9/cyjufFdewuEWk7fCJMOpoM=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.4.7" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.7</cpe></service><script id="http-methods" output="GET HEAD POST OPTIONS"/><script id="http-title" output="Apache2 Ubuntu Default Page: It works"><elem key="title">Apache2 Ubuntu Default Page: It works</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="38435"/>
+<osmatch name="Linux 2.6.32" accuracy="96" line="76836">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.9" accuracy="96" line="43425">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Netgear DG834G WAP or Western Digital WD TV media player" accuracy="95" line="61906">
+<osclass type="WAP" vendor="Netgear" osfamily="embedded" accuracy="95"><cpe>cpe:/h:netgear:dg834g</cpe></osclass>
+<osclass type="media device" vendor="Western Digital" osfamily="embedded" accuracy="95"><cpe>cpe:/o:westerndigital:wd_tv</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.8" accuracy="95" line="78163">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.1" accuracy="94" line="76656">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="94" line="77811">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 210A or 211 Network Camera (Linux 2.6)" accuracy="94" line="7328">
+<osclass type="webcam" vendor="AXIS" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/h:axis:210a_network_camera</cpe><cpe>cpe:/h:axis:211_network_camera</cpe><cpe>cpe:/o:axis:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.26 - 2.6.35" accuracy="94" line="43092">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.35" accuracy="93" line="43072">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.2" accuracy="93" line="43301">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=6.40%E=4%D=3/29%OT=22%CT=1%CU=38435%PV=Y%DS=1%DC=D%G=Y%M=000C29%T&#xa;OS:M=56FB43A5%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10C%TI=Z%TS=8)SEQ(&#xa;OS:SP=103%GCD=1%ISR=10C%TI=Z%CI=RD%TS=8)OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O&#xa;OS:3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5=M5B4ST11NW7%O6=M5B4ST11)WIN(W1=7120%W2=&#xa;OS:7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M5B4NNSN&#xa;OS:W7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%D&#xa;OS:F=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O&#xa;OS:=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W&#xa;OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%R&#xa;OS:IPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="20133" lastboot="Tue Mar 29 14:34:56 2016"/>
+<distance value="1"/>
+<tcpsequence index="259" difficulty="Good luck!" values="91EABE7A,6EC752E8,34AF2E47,958A977B,2318CB60,F32BC893"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="other" values="4C7814,4C782D,4C7846,4C785F,4C7878,4C7891"/>
+<trace>
+<hop ttl="1" ipaddr="172.16.118.132" rtt="0.17"/>
+</trace>
+<times srtt="175" rttvar="90" to="100000"/>
+</host>
+<host starttime="1459305465" endtime="1459307420"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.118.133" addrtype="ipv4"/>
+<address addr="00:0C:29:75:5A:1A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="11987">
+<extrareasons reason="resets" count="11987"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="telnet" product="Microsoft Windows XP telnetd" ostype="Windows XP" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows_xp</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft IIS httpd" version="7.5" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:7.5</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="OPTIONS TRACE GET HEAD POST&#xa;Potentially risky methods: TRACE&#xa;See http://nmap.org/nsedoc/scripts/http-methods.html"/><script id="http-title" output="IIS7"><elem key="title">IIS7</elem>
+</script></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="554"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="rtsp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="2869"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="5357"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="No Allow or Public header in OPTIONS response (status code 503)"/><script id="http-title" output="Service Unavailable"><elem key="title">Service Unavailable</elem>
+</script></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49154"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49155"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49158"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49177"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="23"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="31842"/>
+<osmatch name="Microsoft Windows Server 2008 SP2" accuracy="100" line="52404">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2008::sp2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, or Windows 8" accuracy="100" line="53077">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="100"><cpe>cpe:/o:microsoft:windows_7::-</cpe><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2008::sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8" accuracy="100"><cpe>cpe:/o:microsoft:windows_8</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=6.40%E=4%D=3/29%OT=23%CT=1%CU=31842%PV=Y%DS=1%DC=D%G=Y%M=000C29%T&#xa;OS:M=56FB43A5%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10A%TI=I%CI=I%TS=7&#xa;OS:)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8ST11%O5=M5B&#xa;OS:4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000&#xa;OS:)ECN(R=Y%DF=Y%T=80%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+&#xa;OS:%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T&#xa;OS:=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0&#xa;OS:%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S&#xa;OS:=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R&#xa;OS:=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N&#xa;OS:%T=80%CD=Z)&#xa;"/>
+</os>
+<uptime seconds="13536" lastboot="Tue Mar 29 16:24:53 2016"/>
+<distance value="1"/>
+<tcpsequence index="260" difficulty="Good luck!" values="7F4BD985,58809F9F,A7B9D734,EFFA5FF,D36ABE1A,C5C4D0A7"/>
+<ipidsequence class="Incremental" values="4F3B,4F3C,4F3D,4F3E,4F3F,4F40"/>
+<tcptssequence class="100HZ" values="147F15,147F1F,147F29,147F33,147F3E,147F47"/>
+<hostscript><script id="nbstat" output="&#xa;  NetBIOS name: IGNORED, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: 00:0c:29:75:5a:1a (VMware)&#xa;  Names&#xa;    IGNORED&lt;20&gt;          Flags: &lt;unique&gt;&lt;active&gt;&#xa;    IGNORED&lt;00&gt;          Flags: &lt;unique&gt;&lt;active&gt;&#xa;    WORKGROUP&lt;00&gt;        Flags: &lt;group&gt;&lt;active&gt;&#xa;    WORKGROUP&lt;1e&gt;        Flags: &lt;group&gt;&lt;active&gt;&#xa;    WORKGROUP&lt;1d&gt;        Flags: &lt;unique&gt;&lt;active&gt;&#xa;    \x01\x02__MSBROWSE__\x02&lt;01&gt;  Flags: &lt;group&gt;&lt;active&gt;&#xa;  Statistics&#xa;    00 0c 29 75 5a 1a 00 00 00 00 00 00 00 00 00 00 &#xa;    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 &#xa;    00 00 00 00 00 00 00 00 00 00 00 00 00 00 &#xa;"/><script id="p2p-conficker" output="&#xa;  Checking for Conficker.C or higher...&#xa;  Check 1 (port 16674/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 2 (port 53023/tcp): CLEAN (Couldn&apos;t connect)&#xa;  | Check 3 (port 26943/udp): CLEAN (Failed to receive data)&#xa;  | Check 4 (port 60978/udp): CLEAN (Timeout)&#xa;  0/4 checks are positive: Host is CLEAN or ports are blocked&#xa;"/><script id="smb-os-discovery" output="&#xa;  OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)&#xa;  OS CPE: cpe:/o:microsoft:windows_7::sp1&#xa;  Computer name: ignored&#xa;  NetBIOS computer name: IGNORED&#xa;  Workgroup: WORKGROUP&#xa;  System time: 2016-03-29T20:09:04-07:00&#xa;"><elem key="os">Windows 7 Ultimate 7601 Service Pack 1</elem>
+<elem key="lanmanager">Windows 7 Ultimate 6.1</elem>
+<elem key="server">IGNORED</elem>
+<elem key="date">2016-03-29T20:09:04-07:00</elem>
+<elem key="fqdn">ignored</elem>
+<elem key="domain_dns">ignored</elem>
+<elem key="workgroup">WORKGROUP</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_7::sp1</elem>
+</script><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: &lt;blank&gt;&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/><script id="smbv2-enabled" output="Server supports SMBv2 protocol"/></hostscript><trace>
+<hop ttl="1" ipaddr="172.16.118.133" rtt="0.21"/>
+</trace>
+<times srtt="210" rttvar="120" to="100000"/>
+</host>
+<host starttime="1459305465" endtime="1459307419"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.118.134" addrtype="ipv4"/>
+<address addr="00:0C:29:10:60:4D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="11989">
+<extrareasons reason="resets" count="11989"/>
+</extraports>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="554"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="rtsp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="2869"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="5357"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="No Allow or Public header in OPTIONS response (status code 503)"/><script id="http-title" output="Service Unavailable"><elem key="title">Service Unavailable</elem>
+</script></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49154"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49155"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49160"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49168"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="135"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="41881"/>
+<osmatch name="Microsoft Windows Server 2008 SP2" accuracy="100" line="52404">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2008::sp2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, or Windows 8" accuracy="100" line="53077">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="100"><cpe>cpe:/o:microsoft:windows_7::-</cpe><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2008::sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8" accuracy="100"><cpe>cpe:/o:microsoft:windows_8</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=6.40%E=4%D=3/29%OT=135%CT=1%CU=41881%PV=Y%DS=1%DC=D%G=Y%M=000C29%&#xa;OS:TM=56FB43A5%P=x86_64-pc-linux-gnu)SEQ(SP=109%GCD=1%ISR=10A%TI=I%CI=I%TS=&#xa;OS:7)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8ST11%O5=M5&#xa;OS:B4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=200&#xa;OS:0)ECN(R=Y%DF=Y%T=80%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S&#xa;OS:+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%&#xa;OS:T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=&#xa;OS:0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%&#xa;OS:S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(&#xa;OS:R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=&#xa;OS:N%T=80%CD=Z)&#xa;"/>
+</os>
+<uptime seconds="13477" lastboot="Tue Mar 29 16:25:52 2016"/>
+<distance value="1"/>
+<tcpsequence index="265" difficulty="Good luck!" values="4224AC98,B3F04F91,337F76F7,2D4F1FD8,46CFD505,2EC94780"/>
+<ipidsequence class="Incremental" values="1B35,1B36,1B37,1B38,1B39,1B3A"/>
+<tcptssequence class="100HZ" values="146832,14683C,146846,146850,14685A,146864"/>
+<hostscript><script id="p2p-conficker" output="&#xa;  Checking for Conficker.C or higher...&#xa;  Check 1 (port 55002/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 2 (port 16704/tcp): CLEAN (Couldn&apos;t connect)&#xa;  | Check 3 (port 52195/udp): CLEAN (Failed to receive data)&#xa;  | Check 4 (port 35546/udp): CLEAN (Timeout)&#xa;  0/4 checks are positive: Host is CLEAN or ports are blocked&#xa;"/><script id="smb-os-discovery" output="&#xa;  OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)&#xa;  OS CPE: cpe:/o:microsoft:windows_7::sp1&#xa;  Computer name: ignored&#xa;  NetBIOS computer name: IGNORED&#xa;  Workgroup: WORKGROUP&#xa;  System time: 2016-03-29T20:09:10-07:00&#xa;"><elem key="os">Windows 7 Ultimate 7601 Service Pack 1</elem>
+<elem key="lanmanager">Windows 7 Ultimate 6.1</elem>
+<elem key="server">IGNORED</elem>
+<elem key="date">2016-03-29T20:09:10-07:00</elem>
+<elem key="fqdn">ignored</elem>
+<elem key="domain_dns">ignored</elem>
+<elem key="workgroup">WORKGROUP</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_7::sp1</elem>
+</script><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/><script id="smbv2-enabled" output="Server supports SMBv2 protocol"/></hostscript><trace>
+<hop ttl="1" ipaddr="172.16.118.134" rtt="0.19"/>
+</trace>
+<times srtt="190" rttvar="67" to="100000"/>
+</host>
+<host starttime="1459305465" endtime="1459307429"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.118.135" addrtype="ipv4"/>
+<address addr="00:0C:29:A7:C2:68" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="11988">
+<extrareasons reason="resets" count="11988"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="telnet" product="Microsoft Windows XP telnetd" ostype="Windows XP" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows_xp</cpe></service></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="554"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="rtsp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="2869"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="5357"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="No Allow or Public header in OPTIONS response (status code 503)"/><script id="http-title" output="Service Unavailable"><elem key="title">Service Unavailable</elem>
+</script></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49154"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49155"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49159"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49174"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="23"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="35732"/>
+<osmatch name="Microsoft Windows Server 2008 SP2" accuracy="100" line="52404">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2008::sp2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, or Windows 8" accuracy="100" line="53077">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="100"><cpe>cpe:/o:microsoft:windows_7::-</cpe><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2008::sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8" accuracy="100"><cpe>cpe:/o:microsoft:windows_8</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=6.40%E=4%D=3/29%OT=23%CT=1%CU=35732%PV=Y%DS=1%DC=D%G=Y%M=000C29%T&#xa;OS:M=56FB43A5%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10D%TI=I%CI=I%TS=7&#xa;OS:)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8ST11%O5=M5B&#xa;OS:4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000&#xa;OS:)ECN(R=Y%DF=Y%T=80%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+&#xa;OS:%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T&#xa;OS:=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0&#xa;OS:%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S&#xa;OS:=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R&#xa;OS:=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N&#xa;OS:%T=80%CD=Z)&#xa;"/>
+</os>
+<uptime seconds="13530" lastboot="Tue Mar 29 16:24:59 2016"/>
+<distance value="1"/>
+<tcpsequence index="261" difficulty="Good luck!" values="234FDB8A,9FC3F2EC,7F25714E,D8AD5268,B578753,78275D14"/>
+<ipidsequence class="Incremental" values="3A38,3A39,3A3A,3A3B,3A3C,3A3D"/>
+<tcptssequence class="100HZ" values="147CE5,147CEF,147CF9,147D03,147D0D,147D17"/>
+<hostscript><script id="p2p-conficker" output="&#xa;  Checking for Conficker.C or higher...&#xa;  Check 1 (port 52532/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 2 (port 58132/tcp): CLEAN (Couldn&apos;t connect)&#xa;  | Check 3 (port 61814/udp): CLEAN (Failed to receive data)&#xa;  | Check 4 (port 61534/udp): CLEAN (Timeout)&#xa;  0/4 checks are positive: Host is CLEAN or ports are blocked&#xa;"/><script id="smb-os-discovery" output="&#xa;  OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)&#xa;  OS CPE: cpe:/o:microsoft:windows_7::sp1&#xa;  Computer name: ignored&#xa;  NetBIOS computer name: IGNORED&#xa;  Workgroup: WORKGROUP&#xa;  System time: 2016-03-29T20:09:04-07:00&#xa;"><elem key="os">Windows 7 Ultimate 7601 Service Pack 1</elem>
+<elem key="lanmanager">Windows 7 Ultimate 6.1</elem>
+<elem key="server">IGNORED</elem>
+<elem key="date">2016-03-29T20:09:04-07:00</elem>
+<elem key="fqdn">ignored</elem>
+<elem key="domain_dns">ignored</elem>
+<elem key="workgroup">WORKGROUP</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_7::sp1</elem>
+</script><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: &lt;blank&gt;&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/><script id="smbv2-enabled" output="Server supports SMBv2 protocol"/></hostscript><trace>
+<hop ttl="1" ipaddr="172.16.118.135" rtt="0.23"/>
+</trace>
+<times srtt="228" rttvar="64" to="100000"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.137" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.138" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.139" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.140" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.141" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.142" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.143" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.144" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.145" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.146" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.147" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.148" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.149" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.150" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.151" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.152" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.153" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.154" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.155" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.156" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.157" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.158" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.159" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.160" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.161" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.162" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.163" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.164" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.165" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.166" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.167" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.168" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.169" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.170" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.171" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.172" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.173" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.174" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.175" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.176" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.177" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.178" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.179" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.180" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.181" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.182" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.183" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.184" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.185" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.186" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.187" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.188" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.189" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.190" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.191" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.192" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.193" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.194" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.195" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.196" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.197" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.198" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.199" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.200" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.201" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.202" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.203" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.204" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.205" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.206" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.207" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.208" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.209" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.210" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.211" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.212" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.213" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.214" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.215" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.216" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.217" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.218" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.219" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.220" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.221" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.222" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.223" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.224" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.225" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.226" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.227" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.228" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.229" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.230" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.231" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.232" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.233" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.234" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.235" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.236" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.237" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.238" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.239" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.240" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.241" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.242" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.243" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.244" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.245" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.246" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.247" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.248" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.249" addrtype="ipv4"/>
+</host>
+<host><status state="down" reason="no-response" reason_ttl="0"/>
+<address addr="172.16.118.250" addrtype="ipv4"/>
+</host>
+<taskbegin task="SYN Stealth Scan" time="1459307429"/>
+<taskprogress task="SYN Stealth Scan" time="1459307460" percent="14.52" remaining="183" etc="1459307642"/>
+<taskprogress task="SYN Stealth Scan" time="1459307490" percent="27.84" remaining="159" etc="1459307648"/>
+<taskend task="SYN Stealth Scan" time="1459307505" extrainfo="12001 total ports"/>
+<taskbegin task="Service scan" time="1459307505"/>
+<taskend task="Service scan" time="1459307511" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1459307524"/>
+<taskprogress task="NSE" time="1459307555" percent="90.91" remaining="4" etc="1459307558"/>
+<taskend task="NSE" time="1459307584"/>
+<host starttime="1459305465" endtime="1459307584"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.118.136" addrtype="ipv4"/>
+<address addr="00:0C:29:D6:EB:F3" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="11999">
+<extrareasons reason="resets" count="11999"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="Dropbear sshd" version="2013.60" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="nginx" version="1.4.6" extrainfo="Ubuntu" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.4.6</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="http-methods" output="No Allow or Public header in OPTIONS response (status code 405)"/><script id="http-title" output="Welcome to nginx!"><elem key="title">Welcome to nginx!</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="33292"/>
+<osmatch name="Netgear DG834G WAP or Western Digital WD TV media player" accuracy="95" line="61906">
+<osclass type="WAP" vendor="Netgear" osfamily="embedded" accuracy="95"><cpe>cpe:/h:netgear:dg834g</cpe></osclass>
+<osclass type="media device" vendor="Western Digital" osfamily="embedded" accuracy="95"><cpe>cpe:/o:westerndigital:wd_tv</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="95" line="76836">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.9" accuracy="95" line="43425">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.8" accuracy="93" line="78163">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.1" accuracy="93" line="76656">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="93" line="77811">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 210A or 211 Network Camera (Linux 2.6)" accuracy="92" line="7328">
+<osclass type="webcam" vendor="AXIS" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/h:axis:210a_network_camera</cpe><cpe>cpe:/h:axis:211_network_camera</cpe><cpe>cpe:/o:axis:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.26 - 2.6.35" accuracy="92" line="43092">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.35" accuracy="92" line="43072">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.2" accuracy="92" line="43301">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=6.40%E=4%D=3/29%OT=22%CT=1%CU=33292%PV=Y%DS=1%DC=D%G=Y%M=000C29%T&#xa;OS:M=56FB4440%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=109%TI=Z%CI=I%TS=8&#xa;OS:)SEQ(SP=104%GCD=1%ISR=109%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M5B4ST11NW7%O2=M5B&#xa;OS:4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5=M5B4ST11NW7%O6=M5B4ST11)WIN(W&#xa;OS:1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y%DF=Y%T=40%W=7210%&#xa;OS:O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=&#xa;OS:N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A&#xa;OS:=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%D&#xa;OS:F=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL&#xa;OS:=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="20136" lastboot="Tue Mar 29 14:37:28 2016"/>
+<distance value="1"/>
+<tcpsequence index="260" difficulty="Good luck!" values="E533C69F,B483A9EF,A3DED91C,2E658760,FA190CE9,C9E3E4A1"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="other" values="4D3220,4D323A,4D3253,4D326C,4D3285,4D329E"/>
+<trace>
+<hop ttl="1" ipaddr="172.16.118.136" rtt="0.25"/>
+</trace>
+<times srtt="250" rttvar="102" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1459307584"/>
+<taskend task="NSE" time="1459307584"/>
+<postscript><script id="ssh-hostkey" output="Possible duplicate hosts&#xa;Key 1024 71:9a:86:39:0b:dd:22:68:8e:51:ec:82:b0:5a:24:36 (DSA) used by:&#xa;  172.16.118.128&#xa;  172.16.118.131&#xa;  172.16.118.132&#xa;Key 2048 fa:66:2c:de:9f:a0:0c:fd:00:aa:2a:52:00:84:2f:3a (RSA) used by:&#xa;  172.16.118.128&#xa;  172.16.118.131&#xa;  172.16.118.132&#xa;Key 256 26:7b:4d:27:8d:ea:bf:55:bd:ad:9e:25:d3:c8:c0:80 (ECDSA) used by:&#xa;  172.16.118.128&#xa;  172.16.118.131&#xa;  172.16.118.132"><table>
+<table key="key">
+<elem key="fingerprint">71:9a:86:39:0b:dd:22:68:8e:51:ec:82:b0:5a:24:36</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="bits">1024</elem>
+</table>
+<table key="hosts">
+<elem>172.16.118.128</elem>
+<elem>172.16.118.131</elem>
+<elem>172.16.118.132</elem>
+</table>
+</table>
+<table>
+<table key="key">
+<elem key="fingerprint">fa:66:2c:de:9f:a0:0c:fd:00:aa:2a:52:00:84:2f:3a</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048</elem>
+</table>
+<table key="hosts">
+<elem>172.16.118.128</elem>
+<elem>172.16.118.131</elem>
+<elem>172.16.118.132</elem>
+</table>
+</table>
+<table>
+<table key="key">
+<elem key="fingerprint">26:7b:4d:27:8d:ea:bf:55:bd:ad:9e:25:d3:c8:c0:80</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+</table>
+<table key="hosts">
+<elem>172.16.118.128</elem>
+<elem>172.16.118.131</elem>
+<elem>172.16.118.132</elem>
+</table>
+</table>
+</script></postscript><runstats><finished time="1459307584" timestr="Tue Mar 29 20:13:04 2016" elapsed="2119.43" summary="Nmap done at Tue Mar 29 20:13:04 2016; 249 IP addresses (9 hosts up) scanned in 2119.43 seconds" exit="success"/><hosts up="9" down="240" total="249"/>
+</runstats>
+</nmaprun>
