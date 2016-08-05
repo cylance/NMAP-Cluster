@@ -4,8 +4,6 @@ For instance, someone auditing the security of a network may wish to scan a /16 
 
 The most popular port scanning utility, NMap, allows for XML output of scan data. We parse this XML output, which can contain information for a single IP or many IPs, create incremental strings for each result, and tokenize these strings to features (one string per feature).
 
-Due to the less direct nature of clustering, and the undoubtful misperception from the users that the clustering algorithm has any idea what similar means to the user, the difficult task with this project is giving the security minded individual with limited to no machine learning training, the power to cluster these items.
-
 
 Current clustering strategies:
 
