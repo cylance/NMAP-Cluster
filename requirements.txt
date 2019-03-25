@@ -1,6 +1,6 @@
 backports-abc==0.4
 bokeh==0.12.1
-certifi==2016.8.8
+certifi==2017.4.17
 cycler==0.10.0
 futures==3.0.5
 Jinja2==2.8
@@ -10,10 +10,10 @@ numpy==1.11.1
 pyparsing==2.1.8
 python-dateutil==2.5.3
 pytz==2016.6.1
-PyYAML==3.11
-requests==2.11.0
+PyYAML==5.1
+requests==2.20.0
 scikit-learn==0.17.1
 scipy==0.18.0
 singledispatch==3.4.0.3
-six==1.10.0
+six==1.11.0
 tornado==4.4.1
