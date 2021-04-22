@@ -3,7 +3,7 @@ bokeh==0.12.1
 certifi==2017.4.17
 cycler==0.10.0
 futures==3.0.5
-Jinja2==2.10.1
+Jinja2==2.11.3
 MarkupSafe==0.23
 matplotlib==1.5.1
 numpy==1.11.1
