@@ -1,6 +1,6 @@
 backports-abc==0.4
 bokeh==0.12.1
-certifi==2017.4.17
+certifi==2022.12.7
 cycler==0.10.0
 futures==3.0.5
 Jinja2==2.10.1
